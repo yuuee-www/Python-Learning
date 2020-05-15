@@ -1,0 +1,27 @@
+def mergeSort(alist):
+    if len(alist)<=1:
+        return alist
+
+    middle = len(alist) // 2
+    left = mergeSort(alist[:middle])
+    right = mergeSort(alist[middle:])
+
+    merged = []
+    while left and right:
+        if left[0] <= right[0]:
+            merged.append(left.pop(0))
+        else:
+            merged.append(right.pop(0))
+
+    merged.extend(right if right else left)
+    return merged
+
+lst=[1,2,3,4,5,6,8,7,9]
+mergeSort(lst)
+print(lst)
+
+
+'''分裂：O(logn)
+   归并：O(n)
+   总：O(nlogn)
+   需要额外一倍储存空间'''
