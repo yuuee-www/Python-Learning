@@ -1,11 +1,11 @@
-def mergesort(alist):
+def mergeSort(alist):
     if len(alist)>1:
         mid = len(alist)//2
         lefthalf = alist[:mid]
         righthalf = alist[mid:]
 
-        mergesort(lefthalf)
-        mergesort(righthalf)
+        mergeSort(lefthalf)
+        mergeSort(righthalf)
 
         i=j=k=0
 
@@ -28,3 +28,7 @@ def mergesort(alist):
             j=j+1
             k=k+1
             
+
+lst=[1,2,3,4,5,6,8,7,9]
+mergeSort(lst)
+print(lst)
