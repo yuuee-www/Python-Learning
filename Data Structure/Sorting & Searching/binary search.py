@@ -3,7 +3,7 @@ def binarySearch(alist,item):
     last = len(alist) - 1
     found = False
 
-    while first <= last and not found:
+    while first < last and not found:
         mid =  (first + last)//2
         if alist[mid] == item:
             found = True
