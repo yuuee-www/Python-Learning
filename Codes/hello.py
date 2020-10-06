@@ -2,7 +2,7 @@ print('wo shi ni die!')
 print('er zi ni hao')
 name = input()
 if name == 'mary':
-   print('hello bitch')
+    print('hello bitch')
 else:
     print('emm...next')
 print('pleased to meeet u, son '+ name)
