@@ -4,7 +4,7 @@ def gcd(a,b):
             a = a - b
         else: 
             b = b - a 
-        return a
+    return a
 ax = 42
 bx = 30
 print("GCD of", ax, "and", bx, "is", gcd(ax, bx))
