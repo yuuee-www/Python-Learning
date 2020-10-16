@@ -11,6 +11,23 @@ def is_in_binary(lst, val):
             end = middle
     return lst[start] == val
 
+def is_in_binary_alt(alist,item):
+    first = 0
+    last = len(alist) - 1
+    found = False
+
+    while first < last and not found:
+        mid =  (first + last)//2
+        if alist[mid] == item:
+            found = True
+        else:
+            if item < alist[mid]:
+                last = mid - 1
+            else:
+                first = mid + 1
+    return found
+
+
 def is_in_binary_recursion(alist, item):
     if len(alist) == 0:
         return False
