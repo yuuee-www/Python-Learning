@@ -1,0 +1,5 @@
+308.2 hello 14.9 7.4
+2.8 81 how are you?
+
+5.0 :-) oops
+badbad 3.9 4.7 67.0 yipes -15.4
