@@ -33,7 +33,7 @@ class Queue():
 
     def is_empty(self):
         return self.head is None
-
+    
 def test_queue():
     q = Queue()
     try:
