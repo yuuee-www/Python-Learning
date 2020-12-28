@@ -1,0 +1,2 @@
+gcc -O2 -fPIC -c -o primes.o primes.c
+gcc primes.o -shared -o libprimes.so
