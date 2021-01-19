@@ -37,6 +37,6 @@ def is_in_binary_recursion(alist, item):
             return True
         else:
             if item < alist[mid]:
-                return binarySearch(alist[:mid], item)
+                return is_in_binary_recursion(alist[:mid], item)
             else:
-                return binarySearch(alist[mid:],item)
+                return is_in_binary_recursion(alist[mid:],item)
