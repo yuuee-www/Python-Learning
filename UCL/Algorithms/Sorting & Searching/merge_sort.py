@@ -17,11 +17,6 @@ def mergeSort(alist):
     return merged
 
 alist = [1,2,3,4,5,8,7,6]
-mergeSort(alist)
-print(alist)
+lst = mergeSort(alist)
+print(lst)
 
-
-'''分裂：O(logn)
-   归并：O(n)
-   总：O(nlogn)
-   需要额外一倍储存空间'''
