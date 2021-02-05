@@ -1,5 +1,0 @@
-	Write a 1000-word analysis and design report of your Python program. 
-Describe how your solution solves the problem and identify the evidence you gained through testing. 
-You are encouraged to include diagrams to illustrate your solution, and small snippets from your code. 
-You can use excerpts from your program and they will not be included in your word count. 
-Your report should identify the quality of the solution with respect to the information given, and the programming techniques that have been applied and tested in Python 3
