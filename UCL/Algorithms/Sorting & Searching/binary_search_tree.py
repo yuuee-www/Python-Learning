@@ -56,9 +56,10 @@ class BinarySearchTree:
                 root = root.right
         return root
 
-    def printTree(self, root):
+    def printTree(self, root): #inOrder
         if root == None:
             return
         self.printTree(root.left)
         print(root.val, end = ' ')
         self.printTree(root.right)
+
